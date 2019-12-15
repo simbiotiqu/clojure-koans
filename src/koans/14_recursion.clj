@@ -3,7 +3,7 @@
 
 (defn is-even? [n]
   (if (= n 0)
-    __
+    true
     (___ (is-even? (dec n)))))
 
 (defn is-even-bigint? [n]
